@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 export class UserService {
 
   constructor(private http: Http) { }
-  private serverUrl: string = "http://localhost:3000/api/";
+  private serverUrl: string = "/api/";
   loggedIn: boolean = false
   email: string
   password: string
